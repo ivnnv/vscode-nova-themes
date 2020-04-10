@@ -547,7 +547,6 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.other.inherited-class",
-				"entity.other.attribute-name",
 				"variable.other.property"
 			],
 			"settings": {
@@ -590,7 +589,8 @@
 		},
 		{
 			"scope": [
-				"meta.tag.attributes"
+				"meta.tag.attributes",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#871F78"
@@ -607,7 +607,9 @@
 		{
 			"scope": [
 				"constant.other.php",
-				"variable.other"
+				"variable.other",
+				"keyword.operator.new",
+				"keyword.control.flow"
 			],
 			"settings": {
 				"foreground": "#012CBB"
@@ -653,7 +655,12 @@
 				"string.unquoted.js",
 				"support.type.property-name.json.comments",
 				"support.type.property-name.json",
-				"entity.name.type.instance"
+				"entity.name.type.instance",
+				"entity.name.tag.css",
+				"entity.name.tag.reference",
+				"entity.name.type.module",
+				"punctuation.definition.template-expression",
+				"punctuation.definition.entity"
 			],
 			"settings": {
 				"foreground": "#005F5F"
@@ -664,7 +671,9 @@
 				"entity.name.class.js",
 				"support.class.builtin.js",
 				"constant.other.object.key.js",
-				"variable.other.object.property.js"
+				"variable.other.object.property.js",
+				"entity.name.type.js",
+				"entity.other.attribute-name.class"
 			],
 			"settings": {
 				"foreground": "#078F88"
@@ -680,9 +689,9 @@
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name",
 				"keyword.other.important.css",
-				"keyword.other.important.scss"
+				"keyword.other.important.scss",
+				"support.constant.property-value"
 			],
 			"settings": {
 				"foreground": "#871F78"
