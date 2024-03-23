@@ -1,16 +1,16 @@
 {
-	"name": "vscode-nova-light-theme",
-	"displayName": "VSCode Nova Light Theme",
-	"description": "A VSCode light theme inspired by Visual Studio, Komodo Edit and Github",
-	"version": "1.1.1",
+	"name": "vscode-nova-themes",
+	"displayName": "VSCode Nova Themes",
+	"description": "A set of VSCode themes inspired by previously used IDEs",
+	"version": "2.0.0",
 	"publisher": "ivnnv",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ivnnv/vscode-nova-light-theme"
+		"url": "https://github.com/ivnnv/vscode-nova-themes"
 	},
 	"bugs": {
-		"url": "https://github.com/ivnnv/vscode-nova-light-theme"
+		"url": "https://github.com/ivnnv/vscode-nova--themes"
 	},
 	"engines": {
 		"vscode": "^1.16.0"
@@ -21,9 +21,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "VSCode Nova Light Theme",
+				"label": "Nova Light",
 				"uiTheme": "vs",
 				"path": "./themes/nova-light.json"
+			},
+			{
+				"label": "Nova Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nova-dark.json"
 			}
 		]
 	},
